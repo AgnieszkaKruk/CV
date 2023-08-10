@@ -184,7 +184,7 @@ header {
 	position: fixed;
 	right: 2rem;
 	top: 50%;
-	right: 18%;
+	right: 2%;
 	transform: translateY(-50%);
 	cursor: pointer;
 }
