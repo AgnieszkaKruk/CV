@@ -183,7 +183,9 @@ header {
 .socialLinks {
 	position: fixed;
 	right: 2rem;
-	top: 40%;
+	top: 50%;
+	right: 18%;
+	transform: translateY(-50%);
 	cursor: pointer;
 }
 
@@ -573,6 +575,16 @@ form input {
 
 	.aboutMeImage {
 		width: 400px;
-		
+	}
+	.socialLinks ul li img {
+		width: 60px;
+		height: 60px;
+		margin-bottom: 0.5rem;
+		border-radius: 50%;
+		background-color: #f76b1b;
+		transition: all 0.5s ease-in-out;
+	}
+	.aboutMeImage img {
+		display: none;
 	}
 }
